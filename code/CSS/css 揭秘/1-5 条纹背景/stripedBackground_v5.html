@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>条纹背景</title>
+    <style rel="stylesheet" type="text/css">
+        html, body {
+            position: relative;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background: lightblue;
+        }
+
+        .stripedBackground {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+            width: 200px;
+            height: 80px;
+            background: linear-gradient(#fb3 30%, #58a 0);
+            background-size: 100% 30px;
+        }
+    </style>
+</head>
+<body>
+<div class="stripedBackground">
+</div>
+</body>
+</html>

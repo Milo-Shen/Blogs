@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>边框内圆角</title>
+    <style rel="stylesheet" type="text/css">
+        html, body {
+            position: relative;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background: lightblue;
+        }
+
+        .circle {
+            position: absolute;
+            top:0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+            display: inline-block;
+            width: 200px;
+            height: 50px;
+            background: #655;
+            padding: 8px;
+        }
+
+        .circle > div {
+            display: inline-block;
+            width: 200px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            background: #d2b48c;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+<div class="circle">
+    <div>边框内圆角</div>
+</div>
+</body>
+</html>

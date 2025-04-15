@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>模糊半径为 0</title>
+    <style type="text/css">
+        html, body {
+            margin: 0;
+            padding: 0;
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: #add8e6;
+        }
+
+        h2 {
+            margin: 0;
+        }
+
+        img {
+            width: 200px;
+        }
+
+        .wrap {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate3d(-50%, -50%, 0);
+            -webkit-transform: translate3d(-50%, -50%, 0);
+            -o-transform: translate3d(-50%, -50%, 0);
+            -ms-transform: translate3d(-50%, -50%, 0);
+            -moz-transform: translate3d(-50%, -50%, 0);
+        }
+
+        .after {
+            filter: drop-shadow(0 130px 0 red);
+            -webkit-filter: drop-shadow(0 130px 0 red);
+        }
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <h2>原始版本</h2>
+    <img class="before" src="https://img.shenyujie.cc/2018-8-19-icon.png"/>
+    <h2>使用模糊半径</h2>
+    <img class="after" src="https://img.shenyujie.cc/2018-8-19-icon.png"/>
+</div>
+</body>
+</html>

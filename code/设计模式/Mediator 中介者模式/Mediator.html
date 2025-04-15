@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mediator</title>
+</head>
+<body>
+<script type="text/javascript">
+    function Test(name) {
+        if (!this instanceof Test) {
+            return new Test();
+        } else {
+            this.name = name;
+        }
+    }
+
+    var a = Test(1);
+</script>
+</body>
+</html>

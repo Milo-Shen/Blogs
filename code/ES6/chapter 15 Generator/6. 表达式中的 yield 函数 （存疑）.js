@@ -1,0 +1,1 @@
+console.log('hello' + (yield '123'));

@@ -1,0 +1,2 @@
+.count p{display: inline-block}
+.count span{width: 50px;height: 25px;line-height: 25px;text-align: center;background: lightcoral;border-radius: 5px;display: inline-block;margin-left: 10px;cursor: pointer}
